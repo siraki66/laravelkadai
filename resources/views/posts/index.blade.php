@@ -60,9 +60,9 @@ if (isset($_SESSION['customer'])) {
   @forelse ($posts as $post)
   <li>
     <a >{{ $post->title }}</a>
-    <a href="{{ action('PostsController@edit', $post) }}" class="edit">[Edit]</a>
+    <a href="{{ action('PostsController@edit', $post) }}" class="edit">編集</a>
     
-    <a href="#" class="del" data-id="{{ $post->id }}">[x]</a>
+    <a href="#" class="del" data-id="{{ $post->id }}">削除</a>
     <form method="post" action="{{ url('/posts', $post->id) }}" id="form_{{ $post->id }}">
       {{ csrf_field() }}
       {{ method_field('delete') }}
@@ -97,8 +97,8 @@ if (isset($_SESSION['customer'])) {
       <td><a >{{ $post->title }}</a></td>
       <td><a >{{ $post->price }}</a></td>
       <td><a >{{ $post->bench }}</a></td>
-      <td><a href="{{ action('PostsController@edit', $post) }}" class="edit">[Edit]</a></td>
-      <td> <a href="#" class="del" data-id="{{ $post->id }}">[x]</a>
+      <td><a href="{{ action('PostsController@edit', $post) }}" class="edit">編集</a></td>
+      <td> <a href="#" class="del" data-id="{{ $post->id }}">削除</a>
       <form method="post" action="{{ url('/posts', $post->id) }}" id="form_{{ $post->id }}">
       {{ csrf_field() }}
       {{ method_field('delete') }}

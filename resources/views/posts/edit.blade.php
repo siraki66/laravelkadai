@@ -33,7 +33,7 @@ if (isset($_SESSION["customer"])){
   </p>
 
   <p>
-    <textarea name="body" placeholder="内容">{{ old('body', $phone->price) }}</textarea>
+    <textarea name="body" placeholder="中古未使用相場">{{ old('body', $phone->price) }}</textarea>
     @if ($errors->has('body'))
     <span class="error">{{ $errors->first('body') }}</span>
     @endif
