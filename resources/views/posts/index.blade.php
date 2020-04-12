@@ -22,7 +22,7 @@ if (isset($_SESSION['customer'])) {
                    {{ session('success') }}
               </div>
            </div>
-     @endif
+     　@endif
 
 
 
@@ -49,12 +49,6 @@ if (isset($_SESSION['customer'])) {
    </div>     
 </div>
 
-
-
-
-</br>
-</br>
-</br>
 
 <ul>
   @forelse ($posts as $post)
