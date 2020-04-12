@@ -16,8 +16,7 @@ $dsn = "mysql:dbname=".$db_name.";host=".$db_host;
 
 $pdo=new PDO($dsn,$user,$password,array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING));
 
-// $pdo = new PDO('mysql:host=localhost;dbname=myblog;charset=utf8',
-//     'root', '');
+
 
 if (isset($_SESSION['customer'])) {
     $id = $_SESSION['customer']['id'];
