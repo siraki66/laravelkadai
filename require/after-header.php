@@ -33,7 +33,7 @@
   </button>
 
   <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-    <a class="navbar-brand" href="http://192.168.33.10:8000/">スマホコスパの館</a>
+    <a class="navbar-brand" href="https://laravel242342.herokuapp.com/">スマホコスパの館</a>
 
     <div class="loginname">
     <?php echo $_SESSION["customer"] ["name"],"でログイン中";?>
@@ -43,10 +43,10 @@
 
 
       <li class="nav-item active">
-        <a class="nav-link" href="http://192.168.33.10:8000/posts/create">情報追加<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="https://laravel242342.herokuapp.com/posts/create">情報追加<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-          <a class="nav-link" href="http://192.168.33.10:8000/posts/logout">ログアウト</a>
+          <a class="nav-link" href="https://laravel242342.herokuapp.com/posts/logout">ログアウト</a>
       </li>
     </ul>
 

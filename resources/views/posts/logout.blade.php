@@ -4,13 +4,13 @@
 if (isset($_SESSION['customer'])) {
 	unset($_SESSION['customer']);
     echo 'ログアウトしました。';
-     header('Location: http://192.168.33.10:8000/');
+     header('Location: https://laravel242342.herokuapp.com/');
      exit();
 
 } else {
     echo 'すでにログアウトしています。';
     
-     header('Location: http://192.168.33.10:8000/');
+     header('Location: https://laravel242342.herokuapp.com/');
      exit();
 }
 ?>

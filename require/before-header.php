@@ -29,16 +29,16 @@
   </button>
 
   <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-    <a class="navbar-brand" href="http://192.168.33.10:8000/">スマホコスパの館</a>
+    <a class="navbar-brand" href="https://laravel242342.herokuapp.com/">スマホコスパの館</a>
 
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
 
     
       <li class="nav-item">
-        <a class="nav-link" href="http://192.168.33.10:8000/posts/customer_input">新規登録</a>
+        <a class="nav-link" href="https://laravel242342.herokuapp.com/posts/customer_input">新規登録</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="http://192.168.33.10:8000/posts/login" tabindex="-1" aria-disabled="true">ログイン</a>
+        <a class="nav-link disabled" href="https://laravel242342.herokuapp.com/posts/login" tabindex="-1" aria-disabled="true">ログイン</a>
       </li>
     </ul>
 

@@ -44,7 +44,7 @@ if (isset($_SESSION['customer'])) {
 
 
   <div class="form-footer">
-    <p><a href="http://192.168.33.10:8000/posts/customer_input">新規登録</a></p>
+    <p><a href="https://laravel242342.herokuapp.com/posts/customer_input">新規登録</a></p>
   </div>
 </div>
 

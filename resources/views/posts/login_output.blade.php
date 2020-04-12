@@ -23,14 +23,14 @@ $_SESSION['customer']=[
 
 if (isset($_SESSION['customer'])){
       
-    header('Location: http://192.168.33.10:8000/');
+    header('Location: https://laravel242342.herokuapp.com/');
     exit();
 }
 
 else{
         $_SESSION['miss']="ログイン名またはパスワードが違います";
 
-header('Location: http://192.168.33.10:8000/posts/login');
+header('Location: https://laravel242342.herokuapp.com/posts/login');
     exit();
 }
 ?>

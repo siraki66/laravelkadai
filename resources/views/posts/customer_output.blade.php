@@ -25,7 +25,7 @@ if (empty($sql->fetchAll())) {
              'email' => $_REQUEST['email'],
             'password' => $_REQUEST['password'], ];
         echo 'お客様情報を更新しました。';
-        header('Location: http://192.168.33.10:8000/');
+        header('Location: https://laravel242342.herokuapp.com/');
         exit();
     } else {
         $sql = $pdo->prepare('insert into customer values(null,?,?,?)');
@@ -33,7 +33,7 @@ if (empty($sql->fetchAll())) {
             $_REQUEST['name'],$_REQUEST['email'],
             $_REQUEST['password'], ]);
         echo 'お客様情報を登録しました。';
-        header('Location: http://192.168.33.10:8000/');
+        header('Location: https://laravel242342.herokuapp.com/');
         exit();
     }
 } else {
