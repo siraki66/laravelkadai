@@ -1,0 +1,23 @@
+サイトからDLしたものはダウンロードに.exeやzipで入っている。
+
+・php7.2を導入
+zipはダウンロードへ
+展開ファイルはcドライブのphpフォルダ
+
+・comoposerをインストール
+
+・sqliteインストール
+.zipはDLフォルダ
+
+中身はcドライブ＝＞sqliteフォルダ
+
+
+・virtualboc DLフォルダ
+
+・vagrant DLフォルダ
+C:\HashiCorp\Vagrant\
+
+
+・Cyberduck
+
+・tera trem
