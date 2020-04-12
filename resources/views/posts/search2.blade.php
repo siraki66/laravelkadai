@@ -23,8 +23,8 @@ if (isset($_SESSION['customer'])) {
 @forelse ($recordwords as $recordword)
   <li>
     <a >{{ $recordword->title }}</a>
-    <a href="{{ action('PostsController@edit', $recordword) }}" class="edit">[Edit]</a>
-    <a href="#" class="del" data-id="{{ $recordword->id }}">[x]</a>
+    <a href="{{ action('PostsController@edit', $recordword) }}" class="edit">編集</a>
+    <a href="#" class="del" data-id="{{ $recordword->id }}">削除</a>
       <form method="post" action="{{ url('/posts', $recordword->id) }}" id="form_{{ $recordword->id }}">
       {{ csrf_field() }}
       {{ method_field('delete') }}

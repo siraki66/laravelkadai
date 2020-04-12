@@ -30,14 +30,14 @@ if (isset($_SESSION["customer"])){
 
 
   <p> 
-    <textarea name="price" placeholder="中古未使用相場(整数で5~6桁で入力ください。)" required="required" pattern="\d{5,6}">{{ old('body') }}</textarea>
+  <input type="text" name="price" placeholder="中古未使用相場(整数で5~6桁で入力ください。)" required="required" pattern="\d{5,6}">{{ old('body') }}
     @if ($errors->has('body'))
     <span class="error">{{ $errors->first('body') }}</span>
     @endif
   </p>
 
   <p> 
-    <textarea name="bench" placeholder="ベンチマーク(整数で5~6桁で入力ください。)" required="required" pattern="\d{5,6}">{{ old('body') }}</textarea>
+  <input type="text" name="bench" placeholder="ベンチマーク(整数で5~6桁で入力ください。)" required="required" pattern="\d{5,6}">{{ old('body') }}
     @if ($errors->has('body'))
     <span class="error">{{ $errors->first('body') }}</span>
     @endif
