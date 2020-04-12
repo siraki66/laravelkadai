@@ -69,7 +69,7 @@ if (isset($_SESSION['customer'])) {
     </form>
   </li>
   @empty
-  <li>No posts yet</li>
+  <li>未投稿です。</li>
   @endforelse
 </ul>
 
