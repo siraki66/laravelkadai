@@ -1,4 +1,5 @@
-![eyecatch_kasotsuka](https://user-images.githubusercontent.com/59543879/75839379-0bdef100-5e0c-11ea-9265-d8730079e3a7.png)
+![laravelスマホ館](https://user-images.githubusercontent.com/59543879/79082293-94cc3f00-7d5f-11ea-85e3-3aed14d1500f.png)
+
 
 スマホコスパの館
 ====
