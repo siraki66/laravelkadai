@@ -22,7 +22,7 @@
 ## 説明
 コスパが良いスマートフォンをまとめたアプリケーションを作成致しました。
 ## アプリURL
-https://laravel242342.herokuapp.com/posts/create
+https://laravel242342.herokuapp.com
 
 ## 実装機能
 <h3>記事関連</h3>
