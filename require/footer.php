@@ -7,20 +7,11 @@
 
 <style>
 .footer {
-    margin-top: 50px;
-    padding: 10px 0;
-    background-color: #87CEFA;
-
-    width: 100%;
-    
-   
-   
-    padding: 30px 0;
-
-    position: absolute;/*←絶対位置*/
-    bottom: 0; /*下に固定*/
-
-
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background-color: #87CEFA;
 }
 
 footer p {
